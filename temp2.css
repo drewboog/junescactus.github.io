@@ -1,0 +1,97 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+.container {
+	width: 225px;
+	margin: auto;
+}
+.social {
+	float: left;
+	background-color: #98CCB6;
+	width: 45px;
+	height: 45px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	margin: 15px 5px;
+}
+.resumelink:hover {
+	background-color: #84B39F;
+}
+.twitter:hover {
+	background-color: #40CEF3;
+}
+.tumblr:hover {
+	background-color: #4F8DAC;
+}
+.linkedin:hover {
+	background-color: #0085CD;
+}
+.instagram:hover {
+	background-color: #4E769B;
+}
+.email:hover {
+	background-color: #5E6364;
+}
+
+.clear {
+	clear: both;
+}
+.resume {
+	margin: auto;
+	width: 265px;
+}
+
+.resumetext, .resumelink {
+	float: left;
+}
+.resumetext {
+	width: 135px;
+}
+.resumelink {
+	background-color: #98CCB6;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	width: 65px;
+	height: 40px;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 5.8em;
+	color: #435A73;
+	font-weight: 300;
+	line-height: 1.6em;
+	text-align: center;
+	margin: 100px auto 0;
+}
+h2, h2 a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4em;
+	font-weight: 300;
+	text-align: center;
+	color: #84B39F;
+	margin: 5px 0;
+}
+h2 a:hover {
+	color: #435A73;
+}
+h3, h3 a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.1em;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: 8px 0;
+}
+h3 a:hover {
+	color: #ccc;
+}
+a {
+	text-decoration: none;
+}
